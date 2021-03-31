@@ -1,0 +1,15 @@
+version: '2'
+services:
+  gatling-runner:
+    image: 037718617193.dkr.ecr.us-west-1.amazonaws.com/rtf-test:latest
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 65535
+        hard: 65535
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: /ecs/rtf-test
+        awslogs-region: us-west-1
+        awslogs-stream-prefix: rtf-test

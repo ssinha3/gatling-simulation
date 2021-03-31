@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="build-releases" />
+      <option name="name" value="Releases Repository" />
+      <option name="url" value="https://nexus.build.msap.io/nexus/content/repositories/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="build-snapshots" />
+      <option name="name" value="Snapshot Repository" />
+      <option name="url" value="https://nexus.build.msap.io/nexus/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="stgx-exchange" />
+      <option name="name" value="stgx-exchange" />
+      <option name="url" value="https://maven.stgx.anypoint.mulesoft.com/api/v1/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="build-artifacts" />
+      <option name="name" value="Releases Artifact Repository" />
+      <option name="url" value="https://nexus.build.msap.io/nexus/content/repositories/artifacts" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mule-ci-releases" />
+      <option name="name" value="mule-ci-releases" />
+      <option name="url" value="https://repository.mulesoft.org/nexus/content/repositories/ci-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mule-ci-snapshots" />
+      <option name="name" value="mule-ci-snapshots" />
+      <option name="url" value="https://repository.mulesoft.org/nexus/content/repositories/private" />
+    </remote-repository>
+  </component>
+</project>

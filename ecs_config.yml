@@ -1,0 +1,17 @@
+version: 1
+task_definition:
+  task_role_arn: ecsTaskExecutionRole # or any role having s3 write privileges, since fargate tasks will write results to s3 in the end.
+  task_execution_role: ecsTaskExecutionRole
+  ecs_network_mode: awsvpc
+  task_size:
+    mem_limit: 2GB
+    cpu_limit: 1024
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets:
+        - "subnet-0460d8f2b435fbc4e"
+        - "subnet-014b102a60bdf793a"
+      security_groups:
+        - "sg-09a02d53820f84db9"
+      assign_public_ip: ENABLED
