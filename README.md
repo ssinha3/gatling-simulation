@@ -14,6 +14,8 @@
 5. Create task role with s3 write privileges in aws console and update in ecs_config.yml.
 6. Time to run ecs-cli compose for ecs to run simulations as ECS Fargate tasks.<br> ecs-cli compose --ecs-params ecs_params.yml scale 10
 7. View task logs as <br> ecs-cli logs --task-id 0775b0e9c6a24faa870fe2ff80a65d07
+8. Ref <br>https://github.com/awsdocs/amazon-ecs-developer-guide/blob/master/doc_source/ecs-cli-tutorial-fargate.md
+<br>https://gatling.io/
 ## Generate consolidated report
 1. ./aggregate_simulations.sh
 2. Make simulation html package public in s3 and share.
